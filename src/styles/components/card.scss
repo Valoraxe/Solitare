@@ -1,0 +1,10 @@
+.card {
+    cursor: pointer;
+    padding: 2px;
+    background-color: $card-color;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: $card-height;
+    width: $card-width;
+}

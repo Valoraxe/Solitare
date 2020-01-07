@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
-// import Store from "./redux/store";
-import './styles/styles.scss'
+import Store from "./redux/store";
+import './styles/styles.scss';
+import Gameboard from './components/gameboard';
 
 const APPLICATION = (
-    <div>
-        <h1>TEST!</h1>
-    </div>
-    // <Provider store={Store}>
-    //     <Component/>
-    // </Provider>
+    <Provider store={Store}>
+        <Gameboard/>
+    </Provider>
 );
 
 const APPROOT = document.getElementById("app");

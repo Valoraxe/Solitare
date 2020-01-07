@@ -1,0 +1,9 @@
+.foundationCell {
+    margin: 5px;
+    background-color: $gameboard-color;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    height: $card-height;
+    width: $card-width;
+}

@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux';
-import tweetReducer from './reducers/allTweets';
+import tableReducer from './reducers/tables';
 
 const rootReducer = combineReducers({
-  allTweets: tweetReducer
+  tables: tableReducer
 })
 
 const store = createStore(rootReducer);
